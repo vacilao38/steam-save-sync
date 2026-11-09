@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.bmds/
+config.local.json
+.steam-save-sync/
+SteamSavesSync/
+*.sav
+*.save
+*.zip
+*.log
+.local/
+.ai-memory.toml
+memory.bmds.md
