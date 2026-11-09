@@ -1,5 +1,10 @@
 name: Windows and Linux
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths: ['steam_saves.py', 'test_steam_saves.py', '.github/workflows/tests.yml']
+  pull_request:
+    paths: ['steam_saves.py', 'test_steam_saves.py', '.github/workflows/tests.yml']
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
